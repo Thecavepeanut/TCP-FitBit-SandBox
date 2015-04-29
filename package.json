@@ -1,0 +1,27 @@
+{
+  "name": "TCP-FitBit-SandBox",
+  "version": "1.0.0",
+  "description": "My FitBit Sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thecavepeanut/TCP-FitBit-SandBox.git"
+  },
+  "author": "Jake Grajewski <jake.grajewski@multiscalehn.com> (http://multiscalehn.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thecavepeanut/TCP-FitBit-SandBox/issues"
+  },
+  "homepage": "https://github.com/Thecavepeanut/TCP-FitBit-SandBox",
+  "dependencies": {
+    "fitbit-node": "^0.1.0",
+    "oauth": "^0.9.12",
+    "react": "^0.13.2"
+  },
+  "devDependencies": {
+    "express": "^4.12.3"
+  }
+}
