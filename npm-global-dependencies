@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if npm i -g typescript
+then
+    npm i -g grunt-cli &&
+    npm i -g tsd@next &&
+    npm i -g bower
+else
+    if sudo npm i -g typescript
+    then
+        sudo npm i -g grunt-cli &&
+        sudo npm i -g tsd@next &&
+        sudo npm i -g bower
+    else
+        printf "Could not install npm dependencies, please make sure npm is installed and is done so correctly."
+        #TODO what to do for windows users, if npm fails
+fi
+fi
+
