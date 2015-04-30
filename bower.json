@@ -1,0 +1,19 @@
+{
+  "name": "TCP-FitBit-SandBox",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Thecavepeanut/TCP-FitBit-SandBox",
+  "authors": [
+    "Jake Grajewski <prs.jake@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-iconic-font": "~1.1.1"
+  }
+}
