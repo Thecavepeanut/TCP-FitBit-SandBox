@@ -4,5 +4,33 @@
   "ref": "master",
   "path": "typings",
   "bundle": "typings/tsd.d.ts",
-  "installed": {}
+  "installed": {
+    "lodash/lodash.d.ts": {
+      "commit": "0ff845747246763811b67e0e9af193e97a9f30aa"
+    },
+    "react/react.d.ts": {
+      "commit": "0ff845747246763811b67e0e9af193e97a9f30aa"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "0ff845747246763811b67e0e9af193e97a9f30aa"
+    },
+    "moment/moment.d.ts": {
+      "commit": "0ff845747246763811b67e0e9af193e97a9f30aa"
+    },
+    "d3/d3.d.ts": {
+      "commit": "0ff845747246763811b67e0e9af193e97a9f30aa"
+    },
+    "react/react-addons-global.d.ts": {
+      "commit": "0ff845747246763811b67e0e9af193e97a9f30aa"
+    },
+    "react/react-addons.d.ts": {
+      "commit": "0ff845747246763811b67e0e9af193e97a9f30aa"
+    },
+    "react/react-global.d.ts": {
+      "commit": "0ff845747246763811b67e0e9af193e97a9f30aa"
+    },
+    "fastclick/fastclick.d.ts": {
+      "commit": "0ff845747246763811b67e0e9af193e97a9f30aa"
+    }
+  }
 }

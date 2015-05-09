@@ -13,7 +13,7 @@ module.exports = function (grunt) {
         dest: 'public/js/index.js',
         options: {
           browserifyOptions: {
-            paths: ['fe/components/node_modules', 'fe/ts'],
+            paths: ['node_modules', 'fe/ts'],
             debug: true
           },
           preBundleCB: function (bundle) {
@@ -25,9 +25,9 @@ module.exports = function (grunt) {
     copy: {
       dev: {
         expand: true,
-        cwd: 'bower_components/material-design-iconic-font/',
-        src: ['fonts/*.*'],
-        dest: 'public/fonts/'
+        cwd: 'node_modules/materialize-css',
+        src: ['font/*.*'],
+        dest: 'public/font/'
       }
     },
     less: {

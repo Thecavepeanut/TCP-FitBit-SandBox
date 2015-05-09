@@ -1,6 +1,7 @@
 declare module HighlightJS{
   export interface HighlightPublic{
     initHighlighting:Function;
+    initHighlightingOnLoad:Function;
   }
 }
 

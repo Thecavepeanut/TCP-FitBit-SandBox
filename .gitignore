@@ -29,9 +29,18 @@ build/Release
 node_modules
 bower_components
 
-public
-fe/*.js
+public/css
+public/fonts
+public/js
+
+
+# Template Ref
+parallax-template
+
+typings
+fe/index.js
+fe/ts/*.js
+
 *.js.map
 
 
-!public/images
